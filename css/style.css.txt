@@ -1,4 +1,4 @@
 header {
-  background-color: cyan;
+  background-color: #83c5cf;
   text-align: center;
 }
