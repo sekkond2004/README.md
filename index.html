@@ -14,11 +14,13 @@
         <main>
         <section>
             <!--This is a section that describe who Ekko is, where he came from and his characteristics-->
-        <img
+        <div id="art_wrapper">
+            <div id="skins"></div>
+            <img
             src = "images/ekko.jpg"
             alt = "An image of Ekko"
-            width = "20%"
         >
+        </div>
             <h2>Ekko's Description:</h2>
             <p>A prodigy from the rough streets of Zaun, Ekko is able to 
                 manipulate time to twist any situation to his advantage. 
@@ -33,13 +35,11 @@
         <section>
             <!--This section lists the tools that Ekko uses-->
             <h2>Ekko's Weapons/Utilities:</h2>
-            <ol>
-                <h3 id = 'green'>
-                    <li>Zero-Drive (Z-Drive)</li>
-                    <li>Giant Clock's Hour Hand</li>
-                    <li>Timewindering Disc</li>
-                </h3>
-            </ol>
+<ol class="weapons">
+    <li>Zero-Drive (Z-Drive)</li>
+    <li>Giant Clock's Hour Hand</li>
+    <li>Timewindering Disc</li>
+</ol>
         </section>
         <section>
             <!--This section describes the abilities that Ekko has-->
@@ -49,18 +49,30 @@
                     <p>Every third attack or damaging spell on the same 
                         target deals bonus magic damage, and grants Ekko 
                         a burst of speed if the target is a champion.</p>
-                        <p class = "button">Click to view
-                            <a href="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_P1.mp4">the ability</a>
-                        </p>
+                        <p class="button">
+    <button onclick="document.getElementById('video1').style.display='block'">
+        Click to view the ability
+    </button>
+</p>
+
+<video id="video1" controls width="320" style="display:none;">
+    <source src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_P1.mp4" type="video/mp4">
+</video>
                 <h3><li>Time Winder</li></h3>
                     <p>Ekko throws a temporal grenade that expands into a 
                         time-distortion field upon hitting an enemy 
                         slowing and damaging anyone caught inside. 
                         After a delay, the grenade rewinds back to Ekko, 
                         dealing damage on its return.</p>
-                         <p class = "button">Click to view
-                            <a href="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_Q1.mp4">the ability</a>
-                        </p>
+                         <p class="button">
+    <button onclick="document.getElementById('video2').style.display='block'">
+        Click to view the ability
+    </button>
+</p>
+
+<video id="video2" controls width="320" style="display:none;">
+    <source src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_Q1.mp4" type="video/mp4">
+</video>
                 <h3><li>Parallel Convergence</li></h3>
                     <p>Ekko's basic attacks deal bonus magic damage to 
                         low health enemies. He can cast Parallel 
@@ -69,16 +81,28 @@
                         caught inside. If Ekko enters the anomaly, he 
                         gains shielding and stuns enemies by suspending 
                         them in time.</p>
-                        <p class = "button">Click to view
-                            <a href="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_W1.mp4">the ability</a>
-                        </p>
+                        <p class="button">
+    <button onclick="document.getElementById('video3').style.display='block'">
+        Click to view the ability
+    </button>
+</p>
+
+<video id="video3" controls width="320" style="display:none;">
+    <source src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_W1.mp4" type="video/mp4">
+</video>
                 <h3><li>Phase Dive</li></h3>
                     <p>Ekko rolls evasively while charging up his Z-Drive. 
                         His next attack deals bonus damage and warps 
                         reality, teleporting him to his target.</p>
-                        <p class = "button">Click to view
-                            <a href="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_E1.mp4">the ability</a>
-                        </p>
+                        <p class="button">
+    <button onclick="document.getElementById('video4').style.display='block'">
+        Click to view the ability
+    </button>
+</p>
+
+<video id="video4" controls width="320" style="display:none;">
+    <source src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_E1.mp4" type="video/mp4">
+</video>
                 <h3><li>Chronobreak (Ultimate)</li></h3>
                     <p>Ekko shatters his timeline, becoming untargetable 
                         and rewinding to a more favorable point in time. 
@@ -86,9 +110,15 @@
                         and heals for a percentage of the damage received 
                         in that duration. Enemies near his arrival zone 
                         take massive damage.</p>
-                        <p class = "button">Click to view
-                            <a href="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_R1.mp4">the ability</a>
-                        </p>
+                        <p class="button">
+    <button onclick="document.getElementById('video5').style.display='block'">
+        Click to view the ability
+    </button>
+</p>
+
+<video id="video5" controls width="320" style="display:none;">
+    <source src="https://lol.dyn.riotcdn.net/x/videos/champion-abilities/0245/ability_0245_R1.mp4" type="video/mp4">
+</video>
             </ul>
         </section>
         </main>
