@@ -34,6 +34,7 @@ p {
 .flex-container {
   display: flex;
   margin: 0px;
+  flex-wrap: nowrap;
 }
 
 .box {
@@ -49,9 +50,11 @@ li{
 #art_wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-#skins {
+.skins {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;            
@@ -60,7 +63,7 @@ li{
     max-width: 1200px;   
 }
 
-#skins li {
+.skins li {
     flex: 1 1 200px; 
     background-color: #1c1c1e;
     border-radius: 12px;
@@ -70,9 +73,10 @@ li{
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-#skins img {
+.skins img {
     width: 100%;
-    max-width: 220px;
+    max-width: 200px;
+    height: auto;
     border-radius: 8px;
     margin-top: 10px;
 }
@@ -104,4 +108,11 @@ li{
 video {
     margin-top: 10px;
     border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
 }
