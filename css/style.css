@@ -14,15 +14,21 @@ h1 {
 
 }
 body {
-    background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #f2f2f2;
     margin: 0;
     padding: 20px;
+    background-image: url('../images/zaun.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
 }
+h3 {
 
+}
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 #red{
     color: red
@@ -46,6 +52,7 @@ p {
 
 li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 #art_wrapper {
